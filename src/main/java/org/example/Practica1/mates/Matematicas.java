@@ -1,4 +1,4 @@
-package org.example.mates;
+package org.example.Practica1.mates;
 
 import org.w3c.dom.ls.LSOutput;
 
