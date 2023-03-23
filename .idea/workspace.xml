@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48077d52-f616-4cf6-842a-579ac9eafe93" name="Changes" comment="Commit Clases" />
+    <list default="true" id="48077d52-f616-4cf6-842a-579ac9eafe93" name="Changes" comment="Commit Practica2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Practica2/Tablero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679594482501</updated>
-      <workItem from="1679594483541" duration="699000" />
+      <workItem from="1679594483541" duration="2418000" />
     </task>
     <task id="LOCAL-00001" summary="Commit Package">
       <created>1679595098150</created>
@@ -76,7 +79,28 @@
       <option name="project" value="LOCAL" />
       <updated>1679595174393</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Commit Principal">
+      <created>1679595244949</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679595244949</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Commit Matematicas">
+      <created>1679595375600</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679595375600</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Commit Practica2">
+      <created>1679595482425</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1679595482425</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -85,6 +109,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit Package" />
     <MESSAGE value="Commit Clases" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit Clases" />
+    <MESSAGE value="Commit Principal" />
+    <MESSAGE value="Commit Matematicas" />
+    <MESSAGE value="Commit Practica2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit Practica2" />
   </component>
 </project>
