@@ -3,6 +3,7 @@ package org.example.Practica2;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.Random;
 
 // Clase que representa un tablero de juego de la vida.
 public class Tablero {
@@ -13,6 +14,10 @@ public class Tablero {
     // Constructor
     public Tablero(String archivoTablero) throws IOException {
         this.estadoActual = leerEstadoInicial(archivoTablero);
+    }
+
+    public Tablero() {
+        this.estadoActual = new int[DIMENSION][DIMENSION];
     }
 
     // Getters y setters
@@ -85,5 +90,42 @@ public class Tablero {
             System.out.println();
         }
         System.out.println();
+    }
+
+    public int[][] getEstadoActual() {
+        return estadoActual;
+    }
+
+    public void transitarAlEstadoSiguiente() {
+        calcularSiguienteEstado();
+        actualizarEstado();
+    }
+
+    public void leerEstadoActual() {
+        try {
+            this.estadoActual = leerEstadoInicial("estadoActual.txt");
+        } catch (IOException e) {
+            System.out.println(e);
+        }
+    }
+
+    public void generarEstadoActualPorMontecarlo() {
+        Random random = new Random();
+        for (int fila = 0; fila < DIMENSION; fila++) {
+            for (int columna = 0; columna < DIMENSION; columna++)
+                estadoActual[fila][columna] = random.nextInt(2);
+        }
+    }
+
+    // Método toString
+    @Override
+    public String toString() {
+        String tablero = "";
+        for (int fila = 0; fila < DIMENSION; fila++) {
+            for (int columna = 0; columna < DIMENSION; columna++)
+                tablero += estadoActual[fila][columna];
+            tablero += " ";
+        }
+        return tablero;
     }
 }
