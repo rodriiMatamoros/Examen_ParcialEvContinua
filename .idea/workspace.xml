@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48077d52-f616-4cf6-842a-579ac9eafe93" name="Changes" comment="Commit Main">
+    <list default="true" id="48077d52-f616-4cf6-842a-579ac9eafe93" name="Changes" comment="Commit Main y Tablero">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Practica3/Graph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Practica2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Practica2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Practica2/Tablero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Practica2/Tablero.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679594482501</updated>
-      <workItem from="1679594483541" duration="3722000" />
+      <workItem from="1679594483541" duration="4758000" />
     </task>
     <task id="LOCAL-00001" summary="Commit Package">
       <created>1679595098150</created>
@@ -115,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679597431331</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Commit Main y Tablero">
+      <created>1679598254373</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1679598254373</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +135,7 @@
     <MESSAGE value="Commit Practica2" />
     <MESSAGE value="Commit Tablero" />
     <MESSAGE value="Commit Main" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit Main" />
+    <MESSAGE value="Commit Main y Tablero" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit Main y Tablero" />
   </component>
 </project>
